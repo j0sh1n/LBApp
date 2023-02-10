@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".managementQrCodeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/rectangle_top"
+        />
+
+    <TextView
+        android:id="@+id/managementName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Management Name"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/managementAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/managementName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Management Address"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/managementCheckIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/managementAddress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Check Ins"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/managementCurrent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CURRENT COVID-19 STATUS:"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/managementCheckIn"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:id="@+id/managementExposure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Management Exposure"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/managementCurrent"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/managementDays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DAYS"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="#f1991b"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/managementExposure"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/qrCode"
+        android:layout_alignTop="@id/managementDays"
+        android:layout_marginTop="60dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/buttonRefresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Refresh"
+            android:background="@drawable/roundedbutton"
+            />
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:id="@+id/buttonLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:background="@drawable/roundedbutton"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

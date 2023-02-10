@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "821613797855",
+    "firebase_url": "https://lookbackapp-2a576-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "lookbackapp-2a576",
+    "storage_bucket": "lookbackapp-2a576.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821613797855:android:c5423aae3157e947d5e46a",
+        "android_client_info": {
+          "package_name": "com.example.lookbackapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "821613797855-ou7nt7qp6dpojnant7103kqj9vg3a94k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfRAxw0oi5LQeFnBtu2o80nAvqOxGc1MQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "821613797855-ou7nt7qp6dpojnant7103kqj9vg3a94k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

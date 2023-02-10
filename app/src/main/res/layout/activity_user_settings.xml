@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".userSettingsActivity">
+
+    <Switch
+        android:padding="20dp"
+        android:id="@+id/covPosSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="56dp"
+        android:text="Covid Positive"
+        android:textSize="20dp"
+        android:checked="false"
+        android:textStyle="bold"
+        android:textOff="No"
+        android:textOn="Yes"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="100dp"
+        android:padding="10dp"
+        android:text="LOGOUT"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:alpha=".5"
+        android:background="@drawable/rectangle_top" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/btnMap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rectanglebutton"
+            android:clickable="true"
+            android:padding="10dp"
+            android:src="@drawable/map" />
+
+        <ImageView
+            android:id="@+id/btnTarget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rectanglebutton"
+            android:clickable="true"
+            android:padding="10dp"
+            android:src="@drawable/target" />
+
+        <ImageView
+            android:id="@+id/btnStat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rectanglebutton"
+            android:clickable="true"
+            android:padding="10dp"
+            android:src="@drawable/stat" />
+
+        <ImageView
+            android:id="@+id/btnSetting"
+            android:alpha=".5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rectanglebutton"
+            android:clickable="true"
+            android:padding="10dp"
+            android:src="@drawable/setting" />
+
+    </LinearLayout>
+
+</RelativeLayout>
